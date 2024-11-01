@@ -42,5 +42,5 @@ export function setActiveNav(target) {
     ? nav?.classList.add('active')
     : nav.classList.remove('active'));
 }
-
+console.log('dev');
 document.addEventListener('DOMContentLoaded', ()=> updateContent(Home()));
